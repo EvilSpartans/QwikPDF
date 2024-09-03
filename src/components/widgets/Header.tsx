@@ -46,18 +46,18 @@ export default component$(() => {
               <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" />
             </div>
             <span class="ml-4 rtl:ml-0 rtl:mr-4">
-              <a
+              {/* <a
                 href="/report"
                 class="ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto text-white bg-blue-500 dark:bg-yellow-400 dark:text-gray-900 rounded-lg transition-colors border-2 border-blue-500 dark:border-yellow-400"
               >
                 Report
-              </a>
-              {/* <a
+              </a> */}
+              <a
                 href="/report"
                 class="ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto text-white bg-blue-700 dark:bg-yellow-400 dark:text-gray-900 rounded-lg transition-colors border-2 border-blue-700 dark:border-yellow-600"
               >
                 Report
-              </a> */}
+              </a>
             </span>
           </div>
         </div>

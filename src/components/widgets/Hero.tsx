@@ -22,20 +22,20 @@ export default component$(() => {
               </p>
 
               <div class="flex justify-center gap-4">
-                <a
+                {/* <a
                   class="btn py-3 px-6 bg-blue-500 dark:bg-yellow-400 text-white dark:text-gray-900 font-semibold rounded-lg hover:bg-blue-400 dark:hover:bg-yellow-300 transition"
                   href="/report"
                   rel="noopener"
                 >
                   Create Report
-                </a>
-                {/* <a
+                </a> */}
+                <a
                 class="btn py-3 px-6 bg-blue-700 dark:bg-yellow-600 text-white dark:text-gray-900 font-semibold rounded-lg hover:bg-blue-600 dark:hover:bg-yellow-500 transition"
                 href="/report"
                 rel="noopener"
                 >
                   Create Report
-                </a> */}
+                </a>
                 <a
                   class="btn py-3 px-6 border border-gray-800 dark:border-gray-200 text-gray-800 dark:text-gray-200 font-semibold rounded-lg hover:bg-gray-800 hover:text-white dark:hover:bg-gray-200 dark:hover:text-gray-900 transition"
                   href="#learn-more"
