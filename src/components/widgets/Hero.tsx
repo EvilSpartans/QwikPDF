@@ -1,8 +1,8 @@
 import { component$ } from "@builder.io/qwik";
 import { Image } from "@unpic/qwik";
 
-const lightImage = "src/assets/images/light-pdf.webp";
-const darkImage = "src/assets/images/dark-pdf.webp";
+const lightImage = "src/assets/images/light-pdf.jpg";
+const darkImage = "src/assets/images/dark-pdf.jpg";
 
 export default component$(() => {
   return (
