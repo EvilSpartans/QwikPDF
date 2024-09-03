@@ -1,8 +1,10 @@
 import { component$ } from "@builder.io/qwik";
 import { Image } from "@unpic/qwik";
 
-const lightImage = "src/assets/images/light-pdf.jpg";
-const darkImage = "src/assets/images/dark-pdf.jpg";
+// @ts-ignore
+import lightImageSrc from "~/assets/images/light-pdf.webp";
+// @ts-ignore
+import darkImageSrc from "~/assets/images/dark-pdf.webp";
 
 export default component$(() => {
   return (
@@ -27,6 +29,13 @@ export default component$(() => {
                 >
                   Create Report
                 </a>
+                {/* <a
+                class="btn py-3 px-6 bg-blue-700 dark:bg-yellow-600 text-white dark:text-gray-900 font-semibold rounded-lg hover:bg-blue-600 dark:hover:bg-yellow-500 transition"
+                href="/report"
+                rel="noopener"
+                >
+                  Create Report
+                </a> */}
                 <a
                   class="btn py-3 px-6 border border-gray-800 dark:border-gray-200 text-gray-800 dark:text-gray-200 font-semibold rounded-lg hover:bg-gray-800 hover:text-white dark:hover:bg-gray-200 dark:hover:text-gray-900 transition"
                   href="#learn-more"
@@ -39,7 +48,7 @@ export default component$(() => {
             <div class="lg:basis-1/2 flex justify-center lg:justify-end">
               {/* Image pour le mode clair */}
               <Image
-                src={lightImage}
+                src={lightImageSrc}
                 layout="constrained"
                 width={493}
                 height={616}
@@ -51,7 +60,7 @@ export default component$(() => {
 
               {/* Image pour le mode sombre */}
               <Image
-                src={darkImage}
+                src={darkImageSrc}
                 layout="constrained"
                 width={493}
                 height={616}
