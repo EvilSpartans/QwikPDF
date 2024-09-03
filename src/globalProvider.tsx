@@ -1,6 +1,6 @@
 import { component$, createContextId, Slot, useContextProvider, useStore, useVisibleTask$ } from '@builder.io/qwik';
 
-export const GlobalContext = createContextId('global-context');
+export const globalContext = createContextId('global-context');
 
 export const GlobalProvider = component$(() => {
   const store = useStore({
@@ -19,7 +19,7 @@ export const GlobalProvider = component$(() => {
     localStorage.setItem('appState', JSON.stringify(store));
   });
 
-  useContextProvider(GlobalContext, store);
+  useContextProvider(globalContext, store);
 
   return (
     <Slot />

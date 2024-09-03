@@ -5,7 +5,7 @@ import { ScrollTopButton } from "~/components/common/ScrollTop";
 import Footer from "~/components/widgets/Footer";
 import Header from "~/components/widgets/Header";
 import { SITE } from "~/config.mjs";
-import { GlobalProvider } from "~/GlobalProvider";
+import { GlobalProvider } from "~/globalProvider";
 
 export default component$(() => {
   return (
