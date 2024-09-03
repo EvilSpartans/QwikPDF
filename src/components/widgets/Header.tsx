@@ -40,6 +40,21 @@ export default component$(() => {
             <ToggleMenu />
           </div>
         </div>
+        <div class="hidden md:self-center md:flex items-center md:mb-0 fixed w-full md:w-auto md:static justify-end left-0 rtl:left-auto rtl:right-0 bottom-0 p-3 md:p-0">
+          <div class="items-center flex justify-between w-full md:w-auto">
+            <div class="flex">
+              <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" />
+            </div>
+            <span class="ml-4 rtl:ml-0 rtl:mr-4">
+              <a
+                href="/report"
+                class="ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto text-white bg-blue-500 dark:bg-yellow-400 dark:text-gray-900 rounded-lg transition-colors border-2 border-blue-500 dark:border-yellow-400"
+              >
+                Report
+              </a>
+            </span>
+          </div>
+        </div>
         <nav
           class="items-center w-full md:w-auto hidden md:flex text-default overflow-y-auto overflow-x-hidden md:overflow-y-visible md:overflow-x-auto md:mx-5"
           aria-label="Main navigation"
@@ -76,21 +91,6 @@ export default component$(() => {
             </ul>
           ) : null}
         </nav>
-        <div class="hidden md:self-center md:flex items-center md:mb-0 fixed w-full md:w-auto md:static justify-end left-0 rtl:left-auto rtl:right-0 bottom-0 p-3 md:p-0">
-          <div class="items-center flex justify-between w-full md:w-auto">
-            <div class="flex">
-              <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" />
-            </div>
-            <span class="ml-4 rtl:ml-0 rtl:mr-4">
-              <a
-                href="/report"
-                class="ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto text-white bg-blue-500 dark:bg-yellow-400 dark:text-gray-900 rounded-lg transition-colors border-2 border-blue-500 dark:border-yellow-400"
-              >
-                Report
-              </a>
-            </span>
-          </div>
-        </div>
       </div>
     </header>
   );

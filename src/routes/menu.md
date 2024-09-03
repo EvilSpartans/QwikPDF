@@ -1,0 +1,3 @@
+# Menu
+
+## [FAQ](/terms)

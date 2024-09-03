@@ -1,6 +1,7 @@
 export const createReport = async (reportData: any): Promise<Blob> => {
-  const apiUrl = 'http://localhost:4200/report';
-  const apiKey = '12345-abcde-67890-fghij';
+
+  const apiUrl = import.meta.env.PUBLIC_API_URL;
+  const apiKey = import.meta.env.PUBLIC_API_KEY;
 
   const response = await fetch(apiUrl, {
     method: 'POST',

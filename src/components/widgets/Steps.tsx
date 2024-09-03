@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import IconStar from "~/components/icons/IconStar";
+import IconRocket from "~/components/icons/IconRocket";
 
 export default component$(() => {
   const stepsData = {
@@ -9,24 +9,24 @@ export default component$(() => {
         title: "Choose Document Type",
         description:
           "Select the type of document you want to generate - Invoice, Payslip, or Sales Report. Each type has its own specific template and required information.",
-        icon: IconStar,
+        icon: IconRocket,
       },
       {
         title: "Provide Required Information",
         description:
           "Fill in the necessary details such as client name, amount, or employee details, depending on the document type. Ensure all mandatory fields are completed.",
-        icon: IconStar,
+        icon: IconRocket,
       },
       {
         title: "Generate PDF",
         description:
           "With all the information provided, our system will generate a professional-looking PDF. You can preview the document before downloading.",
-        icon: IconStar,
+        icon: IconRocket,
       },
       {
         title: "Download Your Document",
         description: "Your PDF is ready! Click to download your file and use it as needed.",
-        icon: IconStar,
+        icon: IconRocket,
       },
     ],
   };
@@ -54,7 +54,7 @@ export default component$(() => {
                     {typeof Icon !== "undefined" ? (
                       <Icon class="h-6 w-6 text-blue-500 dark:text-yellow-400" />
                     ) : (
-                      <IconStar class="h-6 w-6 text-blue-500 dark:text-yellow-400" />
+                      <IconRocket class="h-6 w-6 text-blue-500 dark:text-yellow-400" />
                     )}
                   </div>
                 </div>

@@ -15,6 +15,12 @@ export default defineConfig(() => {
             qwikVite(),
             tsconfigPaths(),
         ],
+        optimizeDeps: {
+            include: [
+                '@builder.io/qwik',
+                '@builder.io/qwik-city',
+            ],
+        },
         preview: {
             headers: {
                 'Cache-Control': 'public, max-age=600',
