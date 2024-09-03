@@ -54,7 +54,7 @@ export default component$(() => {
               </a> */}
               <a
                 href="/report"
-                class="ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto text-white bg-blue-700 dark:bg-yellow-400 dark:text-gray-900 rounded-lg transition-colors border-2 border-blue-700 dark:border-yellow-600"
+                class="ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto text-white bg-blue-700 dark:bg-yellow-600 dark:text-gray-900 rounded-lg transition-colors border-2 border-blue-700 dark:border-yellow-600"
               >
                 Report
               </a>
